@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Kami | KlinWash Laundry Express</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header & Navigasi -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Navigasi Utama">
+        <a href="index.html" class="brand-logo">
+          <img src="img/logo.svg" alt="Logo KlinWash Laundry Express">
+        </a>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Beranda</a></li>
+          <li><a href="tentang.html" class="nav-link">Tentang Kami</a></li>
+          <li><a href="katalog.html" class="nav-link">Katalog Layanan</a></li>
+          <li><a href="kontak.html" class="nav-link active" aria-current="page">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Konten Utama -->
+  <main id="main-content">
+
+    <!-- Header Kontak -->
+    <section class="hero-section" aria-labelledby="contact-header-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Hubungi Kami</span>
+          <h1 id="contact-header-title" class="section-title">Kontak &amp; Layanan Pelanggan</h1>
+          <p class="section-subtitle">
+            Kunjungi outlet kami di Rawamangun atau kirimkan pesan dan pertanyaan Anda melalui formulir kontak di bawah ini.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian Info Kontak & Formulir -->
+    <section class="contact-section" aria-labelledby="form-section-title">
+      <div class="container">
+        
+        <h2 id="form-section-title" class="sr-only">Formulir Kontak dan Informasi Outlet</h2>
+
+        <div class="contact-layout">
+
+          <!-- Kolom Informasi & WhatsApp -->
+          <aside class="contact-info" aria-label="Informasi Kontak Outlet">
+            
+            <div class="contact-card">
+              <h3>Informasi Outlet</h3>
+
+              <div class="contact-item">
+                <div class="contact-icon">&#128205;</div>
+                <div class="contact-text">
+                  <h4>Alamat</h4>
+                  <p>Jl. Pemuda No. 45, RT 03 / RW 05, Rawamangun, Pulo Gadung, Jakarta Timur 13220</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">&#128222;</div>
+                <div class="contact-text">
+                  <h4>Telepon / WhatsApp</h4>
+                  <p><a href="tel:081234567890">0812-3456-7890</a></p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">&#9993;</div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <p><a href="mailto:klinwash.express@gmail.com">klinwash.express@gmail.com</a></p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">&#127760;</div>
+                <div class="contact-text">
+                  <h4>Media Sosial</h4>
+                  <p>Instagram: @klinwash.express &bull; TikTok: @klinwash_laundry</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chat WhatsApp Langsung -->
+            <div class="contact-card">
+              <h3>Chat WhatsApp Langsung</h3>
+              <p>
+                Butuh respon cepat untuk penjemputan atau tanya layanan? Silakan hubungi kami langsung via WhatsApp:
+              </p>
+              <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block">
+                &#128172; Chat WhatsApp Kami
+              </a>
+            </div>
+
+          </aside>
+
+          <!-- Formulir Kontak -->
+          <section class="contact-form-wrapper" aria-labelledby="form-heading">
+            <h3 id="form-heading">Kirim Pesan</h3>
+            <p>
+              Punya pertanyaan mengenai layanan kami atau ingin menyampaikan saran? Silakan isi formulir kontak di bawah ini.
+            </p>
+
+            <form action="#" method="post" aria-label="Formulir Kontak KlinWash">
+              
+              <div class="form-group">
+                <label for="nama_lengkap" class="form-label">
+                  Nama Lengkap <span class="req">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="nama_lengkap" 
+                  name="nama_lengkap" 
+                  class="form-control" 
+                  placeholder="Masukkan nama Anda..." 
+                  required>
+                <span class="form-hint">Nama pengirim pesan.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="alamat_email" class="form-label">
+                  Alamat Email <span class="req">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="alamat_email" 
+                  name="alamat_email" 
+                  class="form-control" 
+                  placeholder="nama@email.com" 
+                  required>
+                <span class="form-hint">Email aktif untuk menerima balasan kami.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="nomor_telepon" class="form-label">
+                  Nomor HP / WhatsApp <span class="req">*</span>
+                </label>
+                <input 
+                  type="tel" 
+                  id="nomor_telepon" 
+                  name="nomor_telepon" 
+                  class="form-control" 
+                  pattern="[0-9]{10,13}" 
+                  placeholder="Contoh: 081234567890 (10-13 digit angka)" 
+                  title="Masukkan nomor telepon 10 sampai 13 digit angka"
+                  required>
+                <span class="form-hint">Nomor yang dapat dihubungi.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="subjek_pesan" class="form-label">
+                  Subjek Pesan <span class="req">*</span>
+                </label>
+                <select id="subjek_pesan" name="subjek_pesan" class="form-control" required>
+                  <option value="" disabled selected>-- Pilih Subjek Pesan --</option>
+                  <option value="tanya_kiloan">Pertanyaan Layanan Laundry Kiloan</option>
+                  <option value="tanya_satuan">Pertanyaan Layanan Satuan (Sepatu / Bed Cover / Jas)</option>
+                  <option value="tanya_antar_jemput">Informasi Layanan Antar-Jemput</option>
+                  <option value="saran_kritik">Kritik dan Saran</option>
+                  <option value="lainnya">Pertanyaan Lainnya</option>
+                </select>
+                <span class="form-hint">Pilih topik pesan yang ingin disampaikan.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="pesan_pelanggan" class="form-label">
+                  Isi Pesan <span class="req">*</span>
+                </label>
+                <textarea 
+                  id="pesan_pelanggan" 
+                  name="pesan_pelanggan" 
+                  class="form-control" 
+                  rows="4" 
+                  minlength="10" 
+                  maxlength="250" 
+                  placeholder="Tuliskan pesan atau pertanyaan Anda di sini..." 
+                  required></textarea>
+                <span class="form-hint">Minimal 10 karakter dan maksimal 250 karakter.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                Kirim Pesan
+              </button>
+
+            </form>
+          </section>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Tabel Jam Operasional -->
+    <section class="table-section" aria-labelledby="hours-table-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Jadwal Pelayanan</span>
+          <h2 id="hours-table-title" class="section-title">Jam Operasional Outlet</h2>
+          <p class="section-subtitle">
+            Jadwal operasional outlet KlinWash Laundry Express Rawamangun.
+          </p>
+        </div>
+
+        <div class="table-responsive">
+          <table class="custom-table" aria-label="Tabel Jam Operasional KlinWash">
+            <thead>
+              <tr>
+                <th scope="col">Hari</th>
+                <th scope="col">Jam Buka Outlet</th>
+                <th scope="col">Layanan Antar-Jemput</th>
+                <th scope="col">Layanan Express</th>
+                <th scope="col">Keterangan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Senin</strong></td>
+                <td>07.00 - 21.00 WIB</td>
+                <td>08.00 - 20.00 WIB</td>
+                <td>Tersedia</td>
+                <td class="status-open">Buka Normal</td>
+              </tr>
+              <tr>
+                <td><strong>Selasa</strong></td>
+                <td>07.00 - 21.00 WIB</td>
+                <td>08.00 - 20.00 WIB</td>
+                <td>Tersedia</td>
+                <td class="status-open">Buka Normal</td>
+              </tr>
+              <tr>
+                <td><strong>Rabu</strong></td>
+                <td>07.00 - 21.00 WIB</td>
+                <td>08.00 - 20.00 WIB</td>
+                <td>Tersedia</td>
+                <td class="status-open">Buka Normal</td>
+              </tr>
+              <tr>
+                <td><strong>Kamis</strong></td>
+                <td>07.00 - 21.00 WIB</td>
+                <td>08.00 - 20.00 WIB</td>
+                <td>Tersedia</td>
+                <td class="status-open">Buka Normal</td>
+              </tr>
+              <tr>
+                <td><strong>Jumat</strong></td>
+                <td>07.00 - 21.00 WIB</td>
+                <td>08.00 - 20.00 WIB</td>
+                <td>Tersedia</td>
+                <td class="status-open">Buka Normal</td>
+              </tr>
+              <tr>
+                <td><strong>Sabtu</strong></td>
+                <td>07.00 - 21.00 WIB</td>
+                <td>08.00 - 20.30 WIB</td>
+                <td>Tersedia</td>
+                <td class="status-open">Buka Normal</td>
+              </tr>
+              <tr>
+                <td><strong>Minggu &amp; Libur</strong></td>
+                <td>08.00 - 20.00 WIB</td>
+                <td>09.00 - 19.00 WIB</td>
+                <td>Tersedia</td>
+                <td class="status-special">Jam Khusus</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-col">
+          <h4>KlinWash Laundry Express</h4>
+          <p>
+            Penyedia jasa binatu dan perawatan pakaian profesional yang mengutamakan higienitas dan kepuasan pelanggan di kawasan Rawamangun dan sekitarnya.
+          </p>
+          <p><strong>Alamat:</strong> Jl. Pemuda No. 45, RT 03 / RW 05, Rawamangun, Jakarta Timur</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigasi</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang Kami</a></li>
+            <li><a href="katalog.html">Katalog Layanan</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Daftar Layanan</h4>
+          <ul class="footer-links">
+            <li><a href="katalog.html">Cuci Kiloan Reguler</a></li>
+            <li><a href="katalog.html">Cuci Kiloan Express</a></li>
+            <li><a href="katalog.html">Setrika Uap</a></li>
+            <li><a href="katalog.html">Deep Clean Sepatu</a></li>
+            <li><a href="katalog.html">Dry Cleaning Jas</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 KlinWash Laundry Express</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
