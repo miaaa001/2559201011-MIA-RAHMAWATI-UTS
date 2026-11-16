@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="bgSepatu" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4" />
+      <stop offset="100%" stop-color="#dcfce7" />
+    </linearGradient>
+    <filter id="shadowShoe" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#15803d" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <rect width="400" height="250" fill="url(#bgSepatu)" />
+
+  <!-- Clean Sparkles and Foam Bubbles -->
+  <circle cx="80" cy="80" r="14" fill="#ffffff" opacity="0.8" />
+  <circle cx="100" cy="65" r="8" fill="#ffffff" opacity="0.9" />
+  <circle cx="320" cy="70" r="16" fill="#ffffff" opacity="0.7" />
+  <circle cx="340" cy="55" r="9" fill="#ffffff" opacity="0.9" />
+
+  <!-- Sneaker 1 (Main Shoe Profile) -->
+  <g filter="url(#shadowShoe)">
+    <!-- Sole Bottom (White thick sneaker midsole) -->
+    <path d="M 80 185 Q 120 190 200 190 Q 270 190 300 175 L 305 160 Q 260 165 190 165 Q 110 165 80 170 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <!-- Sole Grip detail -->
+    <line x1="120" y1="180" x2="120" y2="188" stroke="#cbd5e1" stroke-width="2" />
+    <line x1="160" y1="180" x2="160" y2="188" stroke="#cbd5e1" stroke-width="2" />
+    <line x1="200" y1="180" x2="200" y2="188" stroke="#cbd5e1" stroke-width="2" />
+    <line x1="240" y1="178" x2="240" y2="185" stroke="#cbd5e1" stroke-width="2" />
+
+    <!-- Upper Body (Modern Cyan/Navy Sneaker) -->
+    <path d="M 80 170 L 95 130 Q 130 115 160 135 L 210 145 Q 260 145 290 158 L 305 160 Q 260 165 190 165 Q 110 165 80 170 Z" fill="#0284c7" />
+    <!-- Toe Cap (Crisp White) -->
+    <path d="M 260 148 Q 285 152 305 160 L 290 170 Q 260 165 245 155 Z" fill="#ffffff" stroke="#cbd5e1" />
+    <!-- Shoe Collar / Ankle Opening -->
+    <path d="M 95 130 Q 110 115 135 125 L 145 140 Q 115 135 95 130 Z" fill="#0f172a" />
+    <!-- White Laces -->
+    <line x1="140" y1="135" x2="165" y2="140" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+    <line x1="150" y1="138" x2="175" y2="143" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+    <line x1="165" y1="142" x2="190" y2="146" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+    <!-- Nike / Dynamic Stripe -->
+    <path d="M 120 155 Q 160 162 230 152 Q 180 168 135 160 Z" fill="#f59e0b" />
+  </g>
+
+  <!-- Cleaning Brush & Foaming Cleanser -->
+  <g filter="url(#shadowShoe)">
+    <!-- Wooden Brush Handle -->
+    <rect x="250" y="85" width="85" height="22" rx="6" fill="#b45309" stroke="#78350f" stroke-width="1.5" transform="rotate(-25 250 85)" />
+    <!-- Horsehair Bristles -->
+    <rect x="250" y="105" width="85" height="15" fill="#fde68a" stroke="#d97706" stroke-width="1" transform="rotate(-25 250 85)" />
+    <!-- Suds/Foam Clusters -->
+    <circle cx="270" cy="120" r="10" fill="#ffffff" stroke="#93c5fd" stroke-width="1.5" />
+    <circle cx="285" cy="115" r="14" fill="#ffffff" stroke="#93c5fd" stroke-width="1.5" />
+    <circle cx="300" cy="125" r="9" fill="#ffffff" stroke="#93c5fd" stroke-width="1.5" />
+  </g>
+
+  <!-- Star Sparkles on Clean Shoe -->
+  <polygon points="100,90 102,96 108,98 102,100 100,107 98,100 92,98 98,96" fill="#16a34a" />
+  <polygon points="310,165 312,170 318,172 312,174 310,180 308,174 302,172 308,170" fill="#f59e0b" />
+
+  <!-- Badge -->
+  <rect x="100" y="15" width="200" height="30" rx="15" fill="#16a34a" />
+  <text x="200" y="35" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">DEEP CLEAN • ANTI BAKTERI</text>
+</svg>

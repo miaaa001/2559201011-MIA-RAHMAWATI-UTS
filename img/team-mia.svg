@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="avatarBgMia" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#bae6fd" />
+    </linearGradient>
+    <linearGradient id="blazerMia" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#0c4a6e" />
+    </linearGradient>
+    <clipPath id="circleClipMia">
+      <circle cx="150" cy="150" r="140" />
+    </clipPath>
+  </defs>
+
+  <!-- Circular Outer Frame -->
+  <circle cx="150" cy="150" r="145" fill="#ffffff" stroke="#0284c7" stroke-width="4" />
+  <g clip-path="url(#circleClipMia)">
+    <!-- Background Circle -->
+    <rect width="300" height="300" fill="url(#avatarBgMia)" />
+
+    <!-- Subtle background pattern ring -->
+    <circle cx="150" cy="150" r="110" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6,6" opacity="0.5" />
+
+    <!-- Hair (Back) -->
+    <path d="M 85 140 Q 75 220 100 250 Q 150 260 200 250 Q 225 220 215 140 Z" fill="#1e293b" />
+
+    <!-- Neck & Shoulders -->
+    <rect x="135" y="180" width="30" height="40" fill="#fbd2be" />
+    <!-- Collar bone shadow -->
+    <path d="M 135 210 Q 150 218 165 210" stroke="#f4b59b" stroke-width="2" fill="none" />
+
+    <!-- Elegant Business Blazer -->
+    <path d="M 70 300 L 95 215 L 140 220 L 150 255 L 160 220 L 205 215 L 230 300 Z" fill="url(#blazerMia)" />
+    <!-- White Inner Blouse -->
+    <polygon points="140,220 150,250 160,220 150,210" fill="#ffffff" />
+    <!-- Gold Brooch on Blazer -->
+    <circle cx="110" cy="245" r="5" fill="#f59e0b" stroke="#ffffff" stroke-width="1.5" />
+
+    <!-- Head & Face -->
+    <ellipse cx="150" cy="140" rx="48" ry="58" fill="#fdd8c7" />
+
+    <!-- Ears -->
+    <circle cx="102" cy="140" r="10" fill="#fdd8c7" />
+    <circle cx="198" cy="140" r="10" fill="#fdd8c7" />
+    <!-- Pearl Earrings -->
+    <circle cx="102" cy="148" r="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+    <circle cx="198" cy="148" r="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+
+    <!-- Eyes and Eyebrows -->
+    <path d="M 125 120 Q 135 116 142 120" stroke="#1e293b" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M 158 120 Q 165 116 175 120" stroke="#1e293b" stroke-width="3" stroke-linecap="round" fill="none" />
+    <ellipse cx="134" cy="132" rx="5" ry="6" fill="#0f172a" />
+    <ellipse cx="166" cy="132" rx="5" ry="6" fill="#0f172a" />
+    <circle cx="136" cy="130" r="2" fill="#ffffff" />
+    <circle cx="168" cy="130" r="2" fill="#ffffff" />
+
+    <!-- Nose -->
+    <path d="M 150 135 L 148 147 L 153 148" stroke="#f4b59b" stroke-width="2" stroke-linecap="round" fill="none" />
+
+    <!-- Warm Confident Smile -->
+    <path d="M 138 162 Q 150 174 162 162" stroke="#e11d48" stroke-width="3" stroke-linecap="round" fill="none" />
+
+    <!-- Hair (Front & Bangs) -->
+    <path d="M 102 125 Q 110 80 150 78 Q 190 80 198 125 Q 170 95 150 102 Q 130 95 102 125 Z" fill="#1e293b" />
+    <!-- Soft highlight on hair -->
+    <path d="M 125 88 Q 150 84 175 88" stroke="#475569" stroke-width="2" fill="none" stroke-linecap="round" />
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#bae6fd" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <!-- Wall Background -->
+  <rect width="600" height="290" fill="url(#wallGrad)" />
+  <!-- Clean Blue Tile Floor -->
+  <rect y="290" width="600" height="110" fill="url(#floorGrad)" />
+  <line x1="0" y1="290" x2="600" y2="290" stroke="#0284c7" stroke-width="3" />
+
+  <!-- Tile grid lines on floor -->
+  <line x1="120" y1="290" x2="80" y2="400" stroke="#7dd3fc" stroke-width="2" />
+  <line x1="240" y1="290" x2="220" y2="400" stroke="#7dd3fc" stroke-width="2" />
+  <line x1="360" y1="290" x2="360" y2="400" stroke="#7dd3fc" stroke-width="2" />
+  <line x1="480" y1="290" x2="500" y2="400" stroke="#7dd3fc" stroke-width="2" />
+
+  <!-- Wall Sign: "STANDAR HIGIENIS KLINWASH" -->
+  <rect x="200" y="25" width="200" height="42" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="2" />
+  <text x="220" y="45" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" fill="#0284c7">KLINWASH QUALITY LAB</text>
+  <text x="212" y="58" font-family="'Segoe UI', sans-serif" font-size="9" fill="#64748b">Higienis • Modern • Ramah Lingkungan</text>
+
+  <!-- Industrial Washer 1 (Left) -->
+  <g filter="url(#softShadow)">
+    <rect x="50" y="110" width="130" height="195" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <rect x="60" y="120" width="110" height="30" rx="6" fill="#0f172a" />
+    <circle cx="85" cy="135" r="7" fill="#38bdf8" />
+    <circle cx="105" cy="135" r="7" fill="#10b981" />
+    <circle cx="145" cy="135" r="5" fill="#f59e0b" />
+    <circle cx="115" cy="220" r="48" fill="#e2e8f0" stroke="#0284c7" stroke-width="3" />
+    <circle cx="115" cy="220" r="38" fill="#0284c7" />
+    <circle cx="115" cy="220" r="22" fill="#38bdf8" />
+  </g>
+
+  <!-- Industrial Washer 2 (Center) -->
+  <g filter="url(#softShadow)">
+    <rect x="200" y="110" width="130" height="195" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <rect x="210" y="120" width="110" height="30" rx="6" fill="#0f172a" />
+    <circle cx="235" cy="135" r="7" fill="#38bdf8" />
+    <circle cx="255" cy="135" r="7" fill="#10b981" />
+    <circle cx="295" cy="135" r="5" fill="#f59e0b" />
+    <circle cx="265" cy="220" r="48" fill="#e2e8f0" stroke="#0284c7" stroke-width="3" />
+    <circle cx="265" cy="220" r="38" fill="#0284c7" />
+    <circle cx="265" cy="220" r="22" fill="#38bdf8" />
+  </g>
+
+  <!-- Industrial Dryer / Steam Workstation (Right) -->
+  <g filter="url(#softShadow)">
+    <rect x="350" y="110" width="130" height="195" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2" />
+    <rect x="360" y="120" width="110" height="30" rx="6" fill="#0f172a" />
+    <text x="375" y="140" font-family="monospace" font-size="11" fill="#f59e0b">DRY-70°C</text>
+    <circle cx="415" cy="220" r="48" fill="#e2e8f0" stroke="#f59e0b" stroke-width="3" />
+    <circle cx="415" cy="220" r="38" fill="#fde68a" />
+    <path d="M 405 210 Q 415 195 425 210 Q 435 225 415 235 Z" fill="#d97706" opacity="0.6" />
+  </g>
+
+  <!-- Garment Rack with Fresh Clothes on Hangers (Far Right) -->
+  <g>
+    <!-- Rack frame -->
+    <line x1="505" y1="130" x2="575" y2="130" stroke="#475569" stroke-width="5" />
+    <line x1="575" y1="130" x2="575" y2="350" stroke="#475569" stroke-width="4" />
+    <line x1="505" y1="130" x2="505" y2="350" stroke="#475569" stroke-width="4" />
+    
+    <!-- Clothes hanging wrapped in protective plastic cover -->
+    <!-- Garment 1 (White Shirt) -->
+    <path d="M 515 140 L 530 160 L 530 260 L 515 260 Z" fill="#ffffff" stroke="#cbd5e1" />
+    <!-- Garment 2 (Blue Suit) -->
+    <path d="M 530 138 L 550 160 L 550 270 L 530 270 Z" fill="#0284c7" />
+    <!-- Garment 3 (Pink Dress) -->
+    <path d="M 550 140 L 568 160 L 568 280 L 550 280 Z" fill="#f43f5e" />
+    
+    <!-- Protective Translucent Plastic Film -->
+    <rect x="510" y="135" width="60" height="160" rx="4" fill="#e0f2fe" opacity="0.35" stroke="#38bdf8" stroke-dasharray="3,3" />
+    <text x="525" y="220" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="bold" fill="#0369a1" transform="rotate(-90 525 220)">QC PASSED</text>
+  </g>
+
+  <!-- Floating Sparkles of Freshness -->
+  <polygon points="120,65 122,70 127,72 122,74 120,79 118,74 113,72 118,70" fill="#f59e0b" />
+  <polygon points="480,85 482,90 487,92 482,94 480,99 478,94 473,92 478,90" fill="#0284c7" />
+</svg>

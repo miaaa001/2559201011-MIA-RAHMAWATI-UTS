@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="bgKiloanReg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff" />
+      <stop offset="100%" stop-color="#bae6fd" />
+    </linearGradient>
+    <filter id="shadowCard" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0284c7" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <rect width="400" height="250" fill="url(#bgKiloanReg)" />
+  
+  <!-- Bubbles in background -->
+  <circle cx="60" cy="50" r="16" fill="#ffffff" opacity="0.6" />
+  <circle cx="340" cy="40" r="22" fill="#ffffff" opacity="0.5" />
+  <circle cx="360" cy="180" r="14" fill="#ffffff" opacity="0.6" />
+
+  <!-- Scale / Weight Balance Graphic (Kiloan) -->
+  <g filter="url(#shadowCard)">
+    <!-- Base Scale Stand -->
+    <rect x="70" y="190" width="100" height="15" rx="4" fill="#334155" />
+    <polygon points="120,110 110,190 130,190" fill="#64748b" />
+    <!-- Scale Dial -->
+    <circle cx="120" cy="150" r="28" fill="#ffffff" stroke="#0284c7" stroke-width="3" />
+    <circle cx="120" cy="150" r="2" fill="#0f172a" />
+    <line x1="120" y1="150" x2="132" y2="140" stroke="#ef4444" stroke-width="2" stroke-linecap="round" />
+    <text x="110" y="165" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="bold" fill="#0284c7">KG</text>
+    <!-- Scale Plate Top -->
+    <line x1="75" y1="105" x2="165" y2="105" stroke="#334155" stroke-width="5" stroke-linecap="round" />
+
+    <!-- Fresh Basket on Scale -->
+    <path d="M 85 105 L 95 65 L 145 65 L 155 105 Z" fill="#f59e0b" />
+    <path d="M 98 62 Q 120 40 142 62 Z" fill="#0284c7" />
+    <path d="M 105 55 Q 120 35 135 55 Z" fill="#ffffff" />
+  </g>
+
+  <!-- Stack of Colorful Neatly Folded Clothes -->
+  <g filter="url(#shadowCard)">
+    <!-- Clothes 1 -->
+    <rect x="220" y="170" width="120" height="26" rx="6" fill="#0284c7" />
+    <!-- Clothes 2 -->
+    <rect x="225" y="146" width="110" height="26" rx="6" fill="#0ea5e9" />
+    <!-- Clothes 3 -->
+    <rect x="230" y="122" width="100" height="26" rx="6" fill="#38bdf8" />
+    <!-- Clothes 4 (Top - White) -->
+    <rect x="235" y="98" width="90" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <!-- Sparkle on Clothes -->
+    <polygon points="280,75 283,82 290,85 283,88 280,95 277,88 270,85 277,82" fill="#f59e0b" />
+  </g>
+
+  <!-- Badge: "Cuci + Kering + Lipat" -->
+  <rect x="110" y="15" width="180" height="30" rx="15" fill="#0284c7" />
+  <text x="200" y="35" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">CUCI • KERING • LIPAT</text>
+</svg>

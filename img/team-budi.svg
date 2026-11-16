@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="avatarBgBudi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" />
+      <stop offset="100%" stop-color="#fde68a" />
+    </linearGradient>
+    <linearGradient id="poloBudi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <clipPath id="circleClipBudi">
+      <circle cx="150" cy="150" r="140" />
+    </clipPath>
+  </defs>
+
+  <circle cx="150" cy="150" r="145" fill="#ffffff" stroke="#f59e0b" stroke-width="4" />
+  <g clip-path="url(#circleClipBudi)">
+    <rect width="300" height="300" fill="url(#avatarBgBudi)" />
+    <circle cx="150" cy="150" r="110" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6,6" opacity="0.4" />
+
+    <!-- Neck & Shoulders -->
+    <rect x="135" y="180" width="30" height="35" fill="#f8cca9" />
+
+    <!-- Professional Polo Uniform with Collar -->
+    <path d="M 65 300 L 90 215 L 130 215 L 140 250 L 160 250 L 170 215 L 210 215 L 235 300 Z" fill="url(#poloBudi)" />
+    <!-- White Inner Collar -->
+    <polygon points="130,215 150,238 140,248 125,225" fill="#ffffff" />
+    <polygon points="170,215 150,238 160,248 175,225" fill="#ffffff" />
+    <!-- Name Tag / QC Badge -->
+    <rect x="175" y="245" width="35" height="18" rx="3" fill="#ffffff" stroke="#0f172a" stroke-width="1" />
+    <text x="180" y="258" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="bold" fill="#0284c7">QC-1</text>
+
+    <!-- Head & Face -->
+    <ellipse cx="150" cy="142" rx="46" ry="54" fill="#fed7aa" />
+
+    <!-- Ears -->
+    <circle cx="104" cy="142" r="10" fill="#fed7aa" />
+    <circle cx="196" cy="142" r="10" fill="#fed7aa" />
+
+    <!-- Eyes & Brows -->
+    <path d="M 124 122 Q 134 118 142 122" stroke="#1e293b" stroke-width="3.5" stroke-linecap="round" fill="none" />
+    <path d="M 158 122 Q 166 118 176 122" stroke="#1e293b" stroke-width="3.5" stroke-linecap="round" fill="none" />
+    <ellipse cx="133" cy="133" rx="5" ry="6" fill="#0f172a" />
+    <ellipse cx="167" cy="133" rx="5" ry="6" fill="#0f172a" />
+    <circle cx="135" cy="131" r="2" fill="#ffffff" />
+    <circle cx="169" cy="131" r="2" fill="#ffffff" />
+
+    <!-- Glasses Frame -->
+    <rect x="120" y="124" width="26" height="18" rx="4" fill="none" stroke="#334155" stroke-width="2.5" />
+    <rect x="154" y="124" width="26" height="18" rx="4" fill="none" stroke="#334155" stroke-width="2.5" />
+    <line x1="146" y1="130" x2="154" y2="130" stroke="#334155" stroke-width="2.5" />
+
+    <!-- Nose -->
+    <path d="M 150 137 L 148 149 L 153 149" stroke="#f4b59b" stroke-width="2" stroke-linecap="round" fill="none" />
+
+    <!-- Friendly Smile -->
+    <path d="M 137 165 Q 150 176 163 165" stroke="#991b1b" stroke-width="3" stroke-linecap="round" fill="none" />
+
+    <!-- Hair (Short, Neat, Professional) -->
+    <path d="M 104 125 Q 104 85 150 82 Q 196 85 196 125 Q 185 96 150 96 Q 115 96 104 125 Z" fill="#1e293b" />
+  </g>
+</svg>

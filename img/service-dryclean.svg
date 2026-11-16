@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="bgDryClean" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <filter id="shadowSuit" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <rect width="400" height="250" fill="url(#bgDryClean)" />
+
+  <!-- Background Decorative Rings -->
+  <circle cx="200" cy="130" r="95" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,4" />
+
+  <!-- Hanger Bar -->
+  <g filter="url(#shadowSuit)">
+    <!-- Metal Hook -->
+    <path d="M 200 45 Q 215 45 215 60 Q 215 75 200 75 L 200 85" fill="none" stroke="#d97706" stroke-width="4" stroke-linecap="round" />
+    <!-- Wooden Hanger -->
+    <path d="M 110 115 L 200 85 L 290 115 Q 295 125 285 125 L 115 125 Q 105 125 110 115 Z" fill="#b45309" stroke="#78350f" stroke-width="1.5" />
+  </g>
+
+  <!-- Tailored Formal Suit / Tuxedo -->
+  <g filter="url(#shadowSuit)">
+    <!-- White Inner Shirt -->
+    <polygon points="175,120 200,170 225,120 200,105" fill="#ffffff" />
+    <!-- Silk Bowtie -->
+    <polygon points="188,118 200,123 212,118 212,128 200,123 188,128" fill="#e11d48" />
+    <!-- Shirt Buttons -->
+    <circle cx="200" cy="140" r="1.5" fill="#0f172a" />
+    <circle cx="200" cy="155" r="1.5" fill="#0f172a" />
+
+    <!-- Charcoal / Midnight Navy Blazer Body -->
+    <path d="M 115 125 L 145 230 L 190 230 L 200 170 L 160 120 Z" fill="#0f172a" />
+    <path d="M 285 125 L 255 230 L 210 230 L 200 170 L 240 120 Z" fill="#0f172a" />
+    <!-- Satin Lapels (Kerah Jas Mengkilap) -->
+    <polygon points="160,120 185,155 170,175 200,170 175,120" fill="#1e293b" />
+    <polygon points="240,120 215,155 230,175 200,170 225,120" fill="#1e293b" />
+    <!-- Pocket Square -->
+    <polygon points="150,175 160,165 165,175" fill="#e11d48" />
+    <line x1="145" y1="175" x2="168" y2="175" stroke="#334155" stroke-width="2" />
+  </g>
+
+  <!-- Protective Clean Seal Tag -->
+  <g filter="url(#shadowSuit)">
+    <rect x="250" y="160" width="45" height="28" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="272" y="173" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="7" font-weight="bold" fill="#b45309">KLINWASH</text>
+    <text x="272" y="183" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="7" font-weight="bold" fill="#0f172a">PREMIUM</text>
+  </g>
+
+  <!-- Sparkles -->
+  <polygon points="95,95 97,101 103,103 97,105 95,111 93,105 87,103 93,101" fill="#f59e0b" />
+  <polygon points="305,95 307,101 313,103 307,105 305,111 303,105 297,103 303,101" fill="#f59e0b" />
+
+  <!-- Badge -->
+  <rect x="100" y="15" width="200" height="30" rx="15" fill="#0f172a" />
+  <text x="200" y="35" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">DRY CLEANING • PERAWATAN KHUSUS</text>
+</svg>

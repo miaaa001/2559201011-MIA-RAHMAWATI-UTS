@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="bgKarpet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed" />
+      <stop offset="100%" stop-color="#ffedd5" />
+    </linearGradient>
+    <filter id="shadowCarpet" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#c2410c" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <rect width="400" height="250" fill="url(#bgKarpet)" />
+
+  <!-- Hanging Fresh Curtains / Gorden in Background -->
+  <g opacity="0.35">
+    <!-- Curtain Rod -->
+    <line x1="40" y1="55" x2="360" y2="55" stroke="#78350f" stroke-width="4" />
+    <circle cx="40" cy="55" r="6" fill="#78350f" />
+    <circle cx="360" cy="55" r="6" fill="#78350f" />
+    <!-- Curtain Folds -->
+    <path d="M 60 55 Q 80 120 70 200 L 95 200 Q 105 120 85 55 Z" fill="#ea580c" />
+    <path d="M 315 55 Q 295 120 305 200 L 330 200 Q 320 120 340 55 Z" fill="#ea580c" />
+  </g>
+
+  <!-- Rolled Clean Carpet (Oriental / Geometric Luxury Pattern) -->
+  <g filter="url(#shadowCarpet)">
+    <!-- Carpet Unrolled Part -->
+    <polygon points="100,195 280,195 320,150 140,150" fill="#c2410c" stroke="#9a3412" stroke-width="2" />
+    <!-- Diamond Motifs on carpet -->
+    <polygon points="170,172 185,160 200,172 185,185" fill="#fef3c7" stroke="#d97706" />
+    <polygon points="220,172 235,160 250,172 235,185" fill="#fef3c7" stroke="#d97706" />
+    <!-- Fringe / Tassels edge -->
+    <line x1="100" y1="198" x2="280" y2="198" stroke="#ffffff" stroke-width="3" stroke-dasharray="3,3" />
+
+    <!-- Tightly Rolled Carpet Cylinder on Top -->
+    <path d="M 120 120 L 270 120 Q 290 120 290 138 Q 290 155 270 155 L 120 155 Z" fill="#9a3412" />
+    <!-- Cylinder End Perspective -->
+    <ellipse cx="120" cy="138" rx="16" ry="17" fill="#ea580c" stroke="#7c2d12" stroke-width="2" />
+    <!-- Spiral Roll Core -->
+    <path d="M 120 138 Q 115 130 120 125 Q 128 125 128 135 Q 128 145 118 145" fill="none" stroke="#fef3c7" stroke-width="2" />
+
+    <!-- Ribbon / Tie holding the rolled carpet -->
+    <rect x="180" y="118" width="12" height="38" rx="2" fill="#f59e0b" />
+    <rect x="235" y="118" width="12" height="38" rx="2" fill="#f59e0b" />
+  </g>
+
+  <!-- Vacuum / Deep Washer Head with Steam -->
+  <g filter="url(#shadowCarpet)">
+    <path d="M 270 95 L 305 130 L 295 138 L 260 102 Z" fill="#0284c7" />
+    <!-- Suction Head -->
+    <ellipse cx="295" cy="138" rx="16" ry="7" fill="#0369a1" />
+    <!-- Water/Steam spray lines -->
+    <line x1="285" y1="145" x2="275" y2="160" stroke="#38bdf8" stroke-width="2" stroke-dasharray="2,2" />
+    <line x1="295" y1="147" x2="295" y2="165" stroke="#38bdf8" stroke-width="2" stroke-dasharray="2,2" />
+    <line x1="305" y1="145" x2="315" y2="160" stroke="#38bdf8" stroke-width="2" stroke-dasharray="2,2" />
+  </g>
+
+  <!-- Sparkles -->
+  <polygon points="100,75 102,81 108,83 102,85 100,91 98,85 92,83 98,81" fill="#f59e0b" />
+  <polygon points="310,85 312,90 317,92 312,94 310,99 308,94 303,92 308,90" fill="#f59e0b" />
+
+  <!-- Badge -->
+  <rect x="95" y="15" width="210" height="30" rx="15" fill="#c2410c" />
+  <text x="200" y="35" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">DEEP EXTRACTION • WANGI TAHAN LAMA</text>
+</svg>

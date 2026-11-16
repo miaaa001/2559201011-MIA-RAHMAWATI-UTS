@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="avatarBgSiti" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ccfbf1" />
+      <stop offset="100%" stop-color="#99f6e4" />
+    </linearGradient>
+    <linearGradient id="uniformSiti" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#115e59" />
+    </linearGradient>
+    <clipPath id="circleClipSiti">
+      <circle cx="150" cy="150" r="140" />
+    </clipPath>
+  </defs>
+
+  <circle cx="150" cy="150" r="145" fill="#ffffff" stroke="#0d9488" stroke-width="4" />
+  <g clip-path="url(#circleClipSiti)">
+    <rect width="300" height="300" fill="url(#avatarBgSiti)" />
+    <circle cx="150" cy="150" r="110" fill="none" stroke="#14b8a6" stroke-width="2" stroke-dasharray="6,6" opacity="0.4" />
+
+    <!-- Hijab / Hair Base -->
+    <path d="M 85 140 Q 80 230 110 260 Q 150 268 190 260 Q 220 230 215 140 Z" fill="#0f766e" />
+
+    <!-- Neck & Shoulders -->
+    <rect x="135" y="180" width="30" height="35" fill="#fdd8c7" />
+
+    <!-- Uniform Shirt -->
+    <path d="M 70 300 L 95 215 L 140 220 L 150 250 L 160 220 L 205 215 L 230 300 Z" fill="url(#uniformSiti)" />
+    <!-- White Trim / Collar -->
+    <polygon points="140,220 150,245 160,220 150,215" fill="#ffffff" />
+    <!-- CS Badge -->
+    <rect x="100" y="240" width="35" height="16" rx="3" fill="#ffffff" stroke="#0f172a" stroke-width="1" />
+    <text x="106" y="252" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="bold" fill="#0d9488">HELP</text>
+
+    <!-- Face -->
+    <ellipse cx="150" cy="142" rx="44" ry="52" fill="#fdd8c7" />
+
+    <!-- Hijab Wrap around face -->
+    <path d="M 106 142 Q 106 95 150 92 Q 194 95 194 142 Q 194 190 150 195 Q 106 190 106 142 Z" fill="none" stroke="#0f766e" stroke-width="12" />
+
+    <!-- Headset Microphone (Customer Service / Frontline) -->
+    <!-- Headband -->
+    <path d="M 102 135 A 50 50 0 0 1 198 135" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+    <!-- Earpiece -->
+    <rect x="96" y="125" width="10" height="24" rx="4" fill="#0f172a" />
+    <!-- Mic boom arm -->
+    <path d="M 98 145 Q 98 175 130 178" fill="none" stroke="#334155" stroke-width="3" stroke-linecap="round" />
+    <!-- Mic tip -->
+    <circle cx="132" cy="178" r="4" fill="#0f172a" />
+
+    <!-- Eyes and Brows -->
+    <path d="M 125 125 Q 135 120 142 125" stroke="#1e293b" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M 158 125 Q 165 120 175 125" stroke="#1e293b" stroke-width="3" stroke-linecap="round" fill="none" />
+    <ellipse cx="134" cy="135" rx="5" ry="6" fill="#0f172a" />
+    <ellipse cx="166" cy="135" rx="5" ry="6" fill="#0f172a" />
+    <circle cx="136" cy="133" r="2" fill="#ffffff" />
+    <circle cx="168" cy="133" r="2" fill="#ffffff" />
+
+    <!-- Nose -->
+    <path d="M 150 138 L 148 150 L 153 150" stroke="#f4b59b" stroke-width="2" stroke-linecap="round" fill="none" />
+
+    <!-- Cheerful Hospitable Smile -->
+    <path d="M 137 163 Q 150 176 163 163" stroke="#e11d48" stroke-width="3" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

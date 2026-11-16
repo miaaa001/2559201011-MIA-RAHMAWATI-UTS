@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="bgSetrika" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff" />
+      <stop offset="100%" stop-color="#dbeafe" />
+    </linearGradient>
+    <filter id="shadowIron" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1e3a8a" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <rect width="400" height="250" fill="url(#bgSetrika)" />
+
+  <!-- Ironing Board Base -->
+  <g filter="url(#shadowIron)">
+    <!-- Board Top -->
+    <path d="M 60 175 L 340 175 Q 365 175 360 185 L 60 185 Z" fill="#64748b" />
+    <!-- Stand Legs -->
+    <line x1="120" y1="185" x2="230" y2="245" stroke="#94a3b8" stroke-width="6" stroke-linecap="round" />
+    <line x1="230" y1="185" x2="120" y2="245" stroke="#94a3b8" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+  <!-- Crisp Formal Shirt Laid on Board -->
+  <g filter="url(#shadowIron)">
+    <path d="M 100 175 L 140 135 L 260 135 L 290 175 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <!-- Shirt Collar -->
+    <polygon points="185,135 200,155 190,158 175,140" fill="#f1f5f9" stroke="#94a3b8" />
+    <polygon points="215,135 200,155 210,158 225,140" fill="#f1f5f9" stroke="#94a3b8" />
+    <!-- Buttons -->
+    <circle cx="200" cy="162" r="2" fill="#0284c7" />
+    <circle cx="200" cy="172" r="2" fill="#0284c7" />
+  </g>
+
+  <!-- Modern Steam Iron (Setrika Uap Boiler) -->
+  <g filter="url(#shadowIron)">
+    <!-- Steam Plate Base (Pointed triangle-curve) -->
+    <path d="M 220 145 L 310 145 Q 325 145 320 135 L 285 110 L 220 120 Z" fill="#0284c7" />
+    <path d="M 215 147 L 315 147 L 310 152 L 215 152 Z" fill="#334155" />
+    <!-- Handle -->
+    <path d="M 235 120 Q 235 90 270 90 L 285 90 Q 295 90 295 110" fill="none" stroke="#0f172a" stroke-width="9" stroke-linecap="round" />
+    <!-- Temperature Knob -->
+    <circle cx="265" cy="120" r="7" fill="#ef4444" />
+    
+    <!-- Steam Puffs / Clouds rising -->
+    <ellipse cx="200" cy="115" rx="14" ry="10" fill="#ffffff" opacity="0.8" />
+    <ellipse cx="185" cy="100" rx="18" ry="12" fill="#ffffff" opacity="0.7" />
+    <ellipse cx="170" cy="85" rx="12" ry="9" fill="#ffffff" opacity="0.6" />
+    <path d="M 215 140 Q 195 130 185 115" stroke="#93c5fd" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 210 145 Q 185 140 175 120" stroke="#93c5fd" stroke-width="2" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- Sparkles -->
+  <polygon points="120,95 123,101 130,103 123,106 120,113 117,106 110,103 117,101" fill="#f59e0b" />
+  <polygon points="340,90 342,95 348,97 342,99 340,105 338,99 332,97 338,95" fill="#f59e0b" />
+
+  <!-- Badge -->
+  <rect x="100" y="15" width="200" height="30" rx="15" fill="#2563eb" />
+  <text x="200" y="35" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">SETRIKA UAP • ANTI KUSUT</text>
+</svg>
